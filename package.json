@@ -1,0 +1,11 @@
+{
+  "name": "ent-to-end-eletra",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --open /dev.html",
+    "build": "vite build dev.html --outDir dist --emptyOutDir && cp dist/dev.html index.html"
+  },
+  "dependencies": { "react": "18.3.1", "react-dom": "18.3.1" },
+  "devDependencies": { "vite": "5.4.10", "@vitejs/plugin-react": "4.3.3", "vite-plugin-singlefile": "2.0.3" }
+}
